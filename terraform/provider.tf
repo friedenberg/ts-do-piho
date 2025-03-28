@@ -19,7 +19,7 @@ provider "digitalocean" {
 }
 
 provider "tailscale" {
-  api_key = var.ts_api_key
+  # api_key = var.ts_api_key
 }
 
 resource "tls_private_key" "bootstrap_private_key" {
